@@ -498,7 +498,7 @@ a {
 .levels-education-item {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .levels-education-item p {
