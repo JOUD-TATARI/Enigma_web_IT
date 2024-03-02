@@ -137,8 +137,9 @@ a {
     display: flex;
     flex-direction: row;
     padding: 24px;
-    gap: 24px;
+/*     gap: 24px; */
     margin-top: 32px;
+    justify-content: space-around;
 }
 
 .item-1 {
