@@ -91,6 +91,8 @@ $(".side-right-item-content").click(function(){
             document.querySelector(".Responsive-lab .result").innerHTML="نتيجتك هي : " + score+"/"+numberQuestion;
             document.querySelector(".Responsive-lab .overlie").style.opacity="1"
             document.querySelector(".Responsive-lab .overlie").style.visibility="visible";
+             document.querySelector(".Responsive-lab .Description").scrollIntoView()
+
 
             for (let i=1;i<=y;i++)
           {
