@@ -6,8 +6,12 @@ window.scrollTo({
 
 document.querySelector(".header-bar").onclick=function()
 {
-  document.querySelector(".list-bar").style.display="block"
+ 
+  document.querySelector(".list-bar").style.display="block";
   document.querySelector(".list-bar").style.zIndex="1000000000000";
+   document.querySelector(".before-home").style.display="none";
+
+
   
 }
 document.querySelector(".div2-list-bar-levels-icon .hide").onclick=function()
@@ -28,4 +32,5 @@ document.querySelector(".div1-list-bar").onclick=function()
 {
   document.querySelector(".list-bar").style.display="none"
   document.querySelector(".list-bar").style.zIndex="-100"
+  document.querySelector(".before-home").style.display="block";
 }
